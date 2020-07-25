@@ -14,4 +14,5 @@ Merhaba, bu projede nodeMCU(ESP8266) kullanarak GPS verilerini web server'a gön
 
 * #### setup() :coffee:
 * #### Bu kısımda nodeMCU, sensör verilerini almaya başlıyor, daha sonrasında WiFi bağlantısını gerçekleştiriyor. WiFi adı ve şifresinde yanlışlık olursa bu kısımda hata verir ve bağlantı gerçekleşmez. Eğer bilgiler doğruysa 'WiFi connected' yazısı Seri Port ekranına gelir.
-![2](https://user-images.githubusercontent.com/50117470/77768203-314dcc00-7053-11ea-909c-e3ddbb13f51b.PNG)
+![1](https://user-images.githubusercontent.com/50117470/88455382-85d84b00-ce7d-11ea-8088-4055a4a18c06.png)
+
