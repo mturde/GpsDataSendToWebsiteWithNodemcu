@@ -21,6 +21,8 @@ Merhaba, bu projede nodeMCU(ESP8266) kullanarak GPS verilerini web server'a gön
 * #### Daha sonra While döngüsü oluşturduk. While döngüsü oluşturmamızda ki amacımız; GPS uyduya bağlanıpta, GPS konum verilerini her güncellediğinde bunları değişkenler de saklamak. `x`, `y`, `spid`, `sat` adında tanımladığımız değişkenlere, GPS 'ten gelen verileri `boylam` `enlem` `hız` `uydu bağlantı sayısı` olarak sırasıyla tuttuk. Sonrasında ise bu değerleri Seri Port ekranına yazdırdık.
 ![1](https://user-images.githubusercontent.com/50117470/88455519-88877000-ce7e-11ea-8759-4bcc42bc2f47.png)
 
-* #### İlk başta nodeMCU 'nun port testini yaptık. 80 portuna bağlanıp bağlanmadığını test ettik.
+* #### Son kısımda ise oluşturduğumuz `insert.php` ' ye parametre gönderiyoruz. `x`, `y`, `spid`, `sat` değişkeninde tuttuğumuz verileri veritabanına gönderiyoruz. Daha sonra veri yazma işi başarıyla gerçekleştikten sonra bağlantıyı kapatıyoruz. 
+![1](https://user-images.githubusercontent.com/50117470/88455850-a5717280-ce81-11ea-8866-f1f7578124c0.png)
 
+# nodeMCU Bağlantı Şeması
 
