@@ -13,6 +13,15 @@ Merhaba, bu projede nodeMCU(ESP8266) kullanarak GPS verilerini web server'a gön
 ![1](https://user-images.githubusercontent.com/50117470/88455325-20845a00-ce7d-11ea-9848-b94678856f81.png)
 
 * #### setup() :coffee:
-* #### Bu kısımda nodeMCU, sensör verilerini almaya başlıyor, daha sonrasında WiFi bağlantısını gerçekleştiriyor. WiFi adı ve şifresinde yanlışlık olursa bu kısımda hata verir ve bağlantı gerçekleşmez. Eğer bilgiler doğruysa 'WiFi connected' yazısı Seri Port ekranına gelir.
+* #### Bu kısımda nodeMCU, sensör verilerini almaya başlıyor, daha sonrasında WiFi bağlantısını gerçekleştiriyor. WiFi adı ve şifresinde yanlışlık olursa bu kısımda hata verir ve bağlantı gerçekleşmez. Eğer bilgiler doğruysa 'WiFi bağlantısı gerçekleştirildi' yazısı Seri Port ekranına gelir.
 ![1](https://user-images.githubusercontent.com/50117470/88455382-85d84b00-ce7d-11ea-8088-4055a4a18c06.png)
+
+* #### Loop() :coffee:
+* #### bu kısımda `float h` ve `float t` adında değişken tanımladık. `h` ile nem verilerini `t` ile de sıcaklık verilerini tuttuk. 
+``` html
+  if (isnan(h) || isnan(t)) {
+    Serial.println("Failed to read from DHT sensor!");
+    return;
+  }
+```
 
