@@ -24,5 +24,6 @@ Merhaba, bu projede nodeMCU(ESP8266) kullanarak GPS verilerini web server'a gön
 * #### Son kısımda ise oluşturduğumuz `insert.php` ' ye parametre gönderiyoruz. `x`, `y`, `spid`, `sat` değişkeninde tuttuğumuz verileri veritabanına gönderiyoruz. Daha sonra veri yazma işi başarıyla gerçekleştikten sonra bağlantıyı kapatıyoruz. 
 ![1](https://user-images.githubusercontent.com/50117470/88455850-a5717280-ce81-11ea-8866-f1f7578124c0.png)
 
-# nodeMCU Bağlantı Şeması
+# nodeMCU Breadboard Şeması
+![devre](https://user-images.githubusercontent.com/50117470/88455951-714a8180-ce82-11ea-9baa-0c313cecd77b.png)
 
