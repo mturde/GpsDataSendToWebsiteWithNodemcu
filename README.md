@@ -17,11 +17,6 @@ Merhaba, bu projede nodeMCU(ESP8266) kullanarak GPS verilerini web server'a gön
 ![1](https://user-images.githubusercontent.com/50117470/88455382-85d84b00-ce7d-11ea-8088-4055a4a18c06.png)
 
 * #### Loop() :coffee:
-* #### bu kısımda `float h` ve `float t` adında değişken tanımladık. `h` ile nem verilerini `t` ile de sıcaklık verilerini tuttuk. 
-``` html
-  if (isnan(h) || isnan(t)) {
-    Serial.println("Failed to read from DHT sensor!");
-    return;
-  }
-```
+![1](https://user-images.githubusercontent.com/50117470/88455519-88877000-ce7e-11ea-8759-4bcc42bc2f47.png)
+
 
